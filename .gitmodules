@@ -1,0 +1,9 @@
+[submodule "SmartDart-Computer-Vision"]
+	path = SmartDart-Computer-Vision
+	url = https://github.com/Nick-Hageman/SmartDart-Computer-Vision.git
+[submodule "SmartDart-App"]
+	path = SmartDart-App
+	url = https://github.com/Nate-Schaefer/SmartDart-App.git
+[submodule "SmartDart-GUI"]
+	path = SmartDart-GUI
+	url = https://github.com/Nick-Hageman/SmartDart-GUI.git
