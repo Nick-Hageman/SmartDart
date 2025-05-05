@@ -6,7 +6,7 @@
 Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
 modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
 gameplay experience while preserving the unique feel of steel-tip darts.
-
+[test](test)
 ---
 
 ## 🎯 Overview
@@ -33,6 +33,9 @@ We based our dart detection computer vision off of [DeepDarts](https://arxiv.org
 
 > A heatmap of the training dataset distribution of where the darts were located. We emphasized training towards the center where it's harder to classify the score due to the smaller area.
 
+📝 DeepDarts research paper [HERE](https://arxiv.org/pdf/2105.09880)
+
+🙌Thanks to [Mike McGarry](https://www.linkedin.com/in/mikejmcgarry/) for sharing [his approach](https://www.linkedin.com/pulse/applying-artificial-intelligence-automatically-score-darts-mcgarry/) for fine-tuning a model from the DeepDarts paper.
 
 
 ---
