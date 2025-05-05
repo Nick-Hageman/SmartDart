@@ -1,6 +1,11 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-A computer vision-based steel-tipped dartboard detection system, powered by a fine-tuned DeepDarts model. Our setup includes a Raspberry Pi with camera integration, a GUI display, and a companion iOS app for live tracking and scoring.
+![boardWithLogo](https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624)
+
+> SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
+Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
+modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
+gameplay experience while preserving the unique feel of steel-tip darts.
 
 ---
 
@@ -14,14 +19,40 @@ This project combines embedded systems and computer vision to track and score st
 - An **iOS companion app** for user interaction, score display, and game management.
 
 ---
-## 🎯 Model Fine Tuning
+## 🔨 Model Fine Tuning
+
 We based our dart detection computer vision off of [DeepDarts](https://arxiv.org/abs/2105.09880), the first deep learning-based automatic scoring system for steel-tip darts. It predicts dart scores from a single image taken from any camera angle.
+
 
 ![shortened](https://github.com/user-attachments/assets/0e79066a-056f-4ae3-8850-f6e9d3ec1573)
 
-We manually placed and annotated over 3,000 darts in various locations over the board to fine tune our model. We also utilized data augmented such as rotations, jitter, and warping in the training process.
+> We manually placed and annotated over 3,000 darts in various locations over the board to fine tune our model. We also utilized data augmented such as rotations, jitter, and warping in the training process.
+
+
+<img src="https://github.com/user-attachments/assets/725ff100-5b95-48b4-8f1c-4276f4d1f79b" width="300"/>
+
+> A heatmap of the training dataset distribution of where the darts were located. We emphasized training towards the center where it's harder to classify the score due to the smaller area.
+
+
 
 ---
+## 🥧 GUI
+![smartDartSketch](https://github.com/user-attachments/assets/21260dee-2d5d-4307-99dd-1a02d5b15349)
+
+> Detected scores are displayed in real time
+on a Tkinter-based GUI and synchronized
+through Firebase to a companion mobile app. The app allows users to correct
+scores, track game history, and monitor Elobased player rankings.
+
+## Companion App
+<img src="https://github.com/user-attachments/assets/7ad03714-be3e-47b7-9ec0-3bdc05802d8c" width="300"/>
+> 
+
+
+## Innovation Challenge
+<img src="https://github.com/user-attachments/assets/b0a1b8f0-e9ad-49ac-a94a-4a11d3a100a1" width="300"/>
+
+> Our team was awarded the Best Technology Award at the University of Iowa John Pappajohn Entrepreneurial Center Innovation Challenge, receiving $5,000 in funding to support the development of SmartDart.
 
 ## 🧠 Tech Stack
 
