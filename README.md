@@ -1,6 +1,6 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-![boardWithLogo](https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624)
+<img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="600"/>
 
 > SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
 Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
