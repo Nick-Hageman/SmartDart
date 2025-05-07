@@ -6,7 +6,7 @@
 Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
 modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
 gameplay experience while preserving the unique feel of steel-tip darts.
-[test](test)
+
 ---
 
 ## 🎯 Overview
