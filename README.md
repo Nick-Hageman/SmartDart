@@ -1,6 +1,6 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-<img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="600"/>
+<img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="450"/>
 
 > SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
 Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
@@ -41,6 +41,7 @@ We based our dart detection computer vision off of [DeepDarts](https://arxiv.org
 ---
 ## 🥧 GUI
 ![smartDartSketch](https://github.com/user-attachments/assets/21260dee-2d5d-4307-99dd-1a02d5b15349)
+![combined](https://github.com/user-attachments/assets/b942305d-c0ee-4b4f-a0fb-bb11265ba4ff)
 
 > Detected scores are displayed in real time
 on a Tkinter-based GUI and synchronized
@@ -48,9 +49,14 @@ through Firebase to a companion mobile app. The app allows users to correct
 scores, track game history, and monitor Elobased player rankings.
 
 ## Companion App
-<img src="https://github.com/user-attachments/assets/7ad03714-be3e-47b7-9ec0-3bdc05802d8c" width="300"/>
-> 
+![appCombined](https://github.com/user-attachments/assets/e07cde13-5cf6-4f1c-be73-545be5f4339c)
 
+> Our companion app allows players to modify incorrectly predicted dart scores and track user game history. This app was built with Swift.  The user is able to create an account and track their Elo rating (a competitive rating for user rankings), along with other statistics. This app connects to Firebase for two main purposes: getting user account information and participating in  an on-going game. It can only be connected when the Pi is connected to Wi-Fi. On offline mode, the companion app is not intended to be used.
+
+## Power Distribution
+![powerDistribution](https://github.com/user-attachments/assets/ccc61447-259d-436a-9d62-f1d1cb9a91a2)
+
+> We successfully integrated a single plug power distribution systems allowing use to power all of the system’s components via a single 120W power supply with two buck converters. This satisfied our power constraint and resulted in clean cable management. 
 
 ## Innovation Challenge
 <img src="https://github.com/user-attachments/assets/b0a1b8f0-e9ad-49ac-a94a-4a11d3a100a1" width="300"/>
