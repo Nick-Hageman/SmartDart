@@ -33,6 +33,10 @@ We based our dart detection computer vision off of [DeepDarts](https://arxiv.org
 
 > A heatmap of the training dataset distribution of where the darts were located. We emphasized training towards the center where it's harder to classify the score due to the smaller area.
 
+![yolo](https://github.com/user-attachments/assets/cdf2bf12-e61c-4303-9edb-44601334e133)
+
+> We fine-tuned a YoloV4-tiny model for dart detection. DeepDarts was a paper which had a similar goal of using a single camera to predict dart coordinates. DeepDarts uses a deep learning-based key point detector that models key points as objects to simultaneously detect and localize dart coordinates and four calibration points. The calibration points are used to transform the dart locations to the dart plane and calibrate the scoring area. Once that is done, the darts are then classified based on their position relative to the center of the dartboard. 
+
 ```yaml
 train:
   seed: 0
