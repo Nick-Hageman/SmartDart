@@ -33,6 +33,38 @@ We based our dart detection computer vision off of [DeepDarts](https://arxiv.org
 
 > A heatmap of the training dataset distribution of where the darts were located. We emphasized training towards the center where it's harder to classify the score due to the smaller area.
 
+```yaml
+train:
+  seed: 0
+  epochs: 100
+  batch_size: 4
+  lr: 0.001
+  bbox_size: 0.025  # fraction of input size
+  loss_type: 'ciou'
+  loss_verbose: 0
+  verbose: 1
+  save_weights_type: 'tf'
+  val: true
+```
+> Used the model config above for our training process.
+
+```yaml
+aug:
+  overall_prob: 0.8
+  flip_lr_prob: 0.5
+  flip_ud_prob: 0.5
+  rot_prob: 0.5
+  rot_step: 36  # degrees
+  rot_small_prob: 0.5
+  rot_small_max: 2  # degrees
+  jitter_prob: 0.5
+  jitter_max: 0.02  # fraction of input size
+  cutout_prob: 0
+  warp_prob: 0.5
+  warp_rho: 2
+```
+> Used the configuration above for data augmentation.
+
 📝 DeepDarts research paper [HERE](https://arxiv.org/pdf/2105.09880)
 
 🙌Thanks to [Mike McGarry](https://www.linkedin.com/in/mikejmcgarry/) for sharing [his approach](https://www.linkedin.com/pulse/applying-artificial-intelligence-automatically-score-darts-mcgarry/) for fine-tuning a model from the DeepDarts paper.
