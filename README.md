@@ -1,11 +1,20 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-<img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="450"/>
-
-> SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
-Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
-modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
-gameplay experience while preserving the unique feel of steel-tip darts.
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="450"/>
+    </td>
+    <td>
+      <blockquote>
+        SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
+        Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
+        modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
+        gameplay experience while preserving the unique feel of steel-tip darts.
+      </blockquote>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -94,10 +103,28 @@ scores, track game history, and monitor Elobased player rankings.
 
 > We successfully integrated a single plug power distribution systems allowing use to power all of the system’s components via a single 120W power supply with two buck converters. This satisfied our power constraint and resulted in clean cable management. 
 
-## Innovation Challenge
-<img src="https://github.com/user-attachments/assets/b0a1b8f0-e9ad-49ac-a94a-4a11d3a100a1" width="300"/>
+## Camera Mounts
 
-> Our team was awarded the Best Technology Award at the University of Iowa John Pappajohn Entrepreneurial Center Innovation Challenge, receiving $5,000 in funding to support the development of SmartDart.
+| Iteration 1 | Iteration 2 | Iteration 3 |
+|:--:|:--:|:--:|
+| ![IMG_7506](https://github.com/user-attachments/assets/3f5b102b-293c-481f-9274-16806b075d4a) | ![IMG_7507](https://github.com/user-attachments/assets/b5e22b51-1a6d-4741-a597-3c4bea2e3cad) | ![IMG_7508](https://github.com/user-attachments/assets/b40c2e15-ea95-4afc-8cd7-c1a337770810) |
+| Started out trying to mount the camera on the top left of the enclosure. We later pivoted to a straight on approach to match the perspective that the pre-trained model used. | 3D printed an adjustable mount which enabled us to find the optimal angle for predictions. | Once an optimal angle was found, we created our permanent solution. With this static angle, we captured and annotated 1,000+ images to fine-tune our model. |
+
+
+## Innovation Challenge
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b0a1b8f0-e9ad-49ac-a94a-4a11d3a100a1" width="300"/>
+    </td>
+    <td>
+      <h2>Innovation Challenge</h2>
+      <blockquote>
+        Our team was awarded the Best Technology Award at the University of Iowa John Pappajohn Entrepreneurial Center Innovation Challenge, receiving $5,000 in funding to support the development of SmartDart.
+      </blockquote>
+    </td>
+  </tr>
+</table>
 
 ## 🧠 Tech Stack
 
