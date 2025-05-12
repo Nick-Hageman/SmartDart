@@ -1,20 +1,10 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/caed2095-f7e9-4fd6-9cfc-02acd6904624" width="450"/>
-    </td>
-    <td>
-      <blockquote>
-        SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a
-        Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to
-        modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the
-        gameplay experience while preserving the unique feel of steel-tip darts.
-      </blockquote>
-    </td>
-  </tr>
-</table>
+> Click the video below to see our full demo on YouTube
+
+[![YouTube Demo URL](https://img.youtube.com/vi/gnmK5E1Q8xQ/0.jpg)](https://www.youtube.com/watch?v=gnmK5E1Q8xQ)
+
+> SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the gameplay experience while preserving the unique feel of steel-tip darts.
 
 ---
 
