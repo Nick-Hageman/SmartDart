@@ -1,10 +1,10 @@
 # ![transparentLogoSmartDart-White](https://github.com/user-attachments/assets/45f24b3b-3012-4d5a-9095-dfa60ff5bd01)
 
-> Click the video below to see our full demo on YouTube
-
-[![YouTube Demo URL](https://img.youtube.com/vi/gnmK5E1Q8xQ/0.jpg)](https://www.youtube.com/watch?v=gnmK5E1Q8xQ)
+https://github.com/user-attachments/assets/c3b04bae-0e14-457c-8bce-07b2c8cd071a
 
 > SmartDart brings automated scoring to traditional steel-tip darts by combining computer vision and machine learning. Using a Raspberry Pi and a high-resolution camera, the system detects dart locations in real time and updates scores automatically, similar to modern plastic tip-dart machines. By integrating a deep learning model with mobile app connectivity, SmartDart modernizes the gameplay experience while preserving the unique feel of steel-tip darts.
+
+> Click [HERE](https://www.youtube.com/watch?v=gnmK5E1Q8xQ) to see our full demo on YouTube
 
 ---
 
@@ -101,7 +101,6 @@ scores, track game history, and monitor Elobased player rankings.
 | Started out trying to mount the camera on the top left of the enclosure. We later pivoted to a straight on approach to match the perspective that the pre-trained model used. | 3D printed an adjustable mount which enabled us to find the optimal angle for predictions. | Once an optimal angle was found, we created our permanent solution. With this static angle, we captured and annotated 1,000+ images to fine-tune our model. |
 
 
-## Innovation Challenge
 <table>
   <tr>
     <td>
@@ -111,6 +110,17 @@ scores, track game history, and monitor Elobased player rankings.
       <h2>Innovation Challenge</h2>
       <blockquote>
         Our team was awarded the Best Technology Award at the University of Iowa John Pappajohn Entrepreneurial Center Innovation Challenge, receiving $5,000 in funding to support the development of SmartDart.
+      </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/21964631-8b44-4877-bdcf-b6398119f050" width="300"/>
+    </td>
+    <td>
+      <h2>Modern Marvels</h2>
+      <blockquote>
+        Our team presented our Senior Design capstone project at Modern Marvels, a showcase of senior design, internet of things, software engineering, and embedded systems projects.
       </blockquote>
     </td>
   </tr>
